@@ -1,5 +1,138 @@
 /* 
 MAD9013 Assignment 1
 Author: Jasper Jiaqian Sun
-Date Created: Sept 28, 2021 / Last modified: Oct 1, 2021 
+Date Created: Sept 28, 2021 / Last modified: Oct 2, 2021 
 */
+
+/* webpage font type */
+html {
+  font-family: Georgia, "Times New Roman", Times;
+  font-family: sans-serif;
+}
+
+/* left and right white-spaces and keep contents in the middle */
+article {
+  margin: 0 auto;
+  max-width: 50rem;
+  padding-top: 4rem;
+  padding-bottom: 25rem;
+}
+
+/* heading text serif */
+.font-serif {
+  font-family: serif;
+}
+
+/* header texts */
+header p {
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+/* lake image */
+.lake-lookout img {
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* image reference link */
+.lake-lookout p {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+  padding-bottom: 2.5rem;
+}
+
+/* title underline */
+.underline {
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 0.5rem;
+}
+
+/* article main title */
+.park-title {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+/* article sub-titles */
+.river-title,
+.ref-title {
+  font-size: 1.5rem;
+  margin-bottom: 0rem;
+  padding-bottom: 0rem;
+}
+
+/* first paragraph texts */
+.first-paragraph {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+/* make first paragraph link number smaller  */
+.small-link {
+  font-size: 1rem;
+}
+
+/* bold - "Algonquin Provincial Park" */
+.bold-text {
+  font-weight: 600;
+}
+
+/* link height - both paragraph */
+.line-height {
+  line-height: 1.5rem;
+}
+
+/* second paragraph texts */
+.second-paragraph {
+  font-weight: 300;
+  font-size: 1.28rem;
+  padding-bottom: 1rem;
+}
+
+/* rivers list */
+.river-list p,
+ul {
+  font-size: 1.1rem;
+  font-weight: 300;
+  text-align: left;
+  padding-bottom: 0rem;
+  padding-top: 0rem;
+}
+.river-list ul {
+  padding-left: 1rem;
+}
+
+/* italic - reference links */
+.italic {
+  font-style: italic;
+}
+
+/* reference list font size */
+.ref-list {
+  font-size: 1rem;
+  font-weight: 300;
+  padding-left: 3rem;
+  display: block;
+}
+
+/* space between order number and reference link */
+ol li {
+  padding-left: 0.5rem;
+}
+
+/* background color - second link */
+.ref-bg,
+.ref-bg::before {
+  background-color: #ecf3fe;
+  display: inline-block;
+}
+
+/* background color - order number */
+.ref-bg li {
+  list-style-position: inside;
+}

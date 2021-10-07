@@ -1,16 +1,17 @@
 /* 
 MAD9013 Assignment 1
 Author: Jasper Jiaqian Sun
-Date Created: Sept 28, 2021 / Last modified: Oct 2, 2021 
+Date Created: Sept 28, 2021 / Last modified: Oct 5, 2021 
 */
 
 /* webpage font type */
 html {
   font-family: Georgia, "Times New Roman", Times;
   font-family: sans-serif;
+  scroll-behavior: smooth;
 }
 
-/* left and right white-spaces and keep contents in the middle */
+/* webpage container */
 article {
   margin: 0 auto;
   max-width: 50rem;
@@ -44,10 +45,16 @@ header p {
   margin-right: 1rem;
   padding-bottom: 2.5rem;
 }
-.lake-lookout figcaption {
+
+figcaption {
   text-align: center;
   padding-top: 1rem;
 }
+
+/* figcaption a {
+  text-decoration: none;
+} */
+
 /* title underline */
 .underline {
   border-bottom: 2px solid #ddd;
@@ -104,6 +111,7 @@ ol {
   padding-bottom: 0rem;
   padding-top: 0rem;
 }
+
 .river-list ol {
   padding-left: 1.3rem;
   list-style-type: disc;
@@ -118,26 +126,26 @@ ol {
   font-style: italic;
 }
 
+.bold-arrow {
+  font-weight: bold;
+}
+
 /* reference list font size */
 .ref-list {
   font-size: 1rem;
   font-weight: 400;
   padding-top: 0.5rem;
-  padding-left: 3rem;
+  padding-left: 2rem;
+  line-height: 1.5rem;
+  position: relative;
   display: block;
 }
 
-/* space between order number and reference link */
-ol li {
-  padding-left: 0.5rem;
+/* background color - reference (target action) */
+li:target {
+  background-color: #eaf2fe;
 }
 
-/* background color - second link */
-.ref-bg {
-  background-color: #ecf3fe;
-  position: relative;
-  /* list-style-position: inside; */
-}
-.ref-bg li::marker {
-  background-color: #ecf3fe;
+li {
+  list-style-position: inside;
 }

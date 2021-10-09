@@ -46,6 +46,7 @@ header p {
   padding-bottom: 2.5rem;
 }
 
+/* figure caption style */
 figcaption {
   text-align: center;
   padding-top: 1rem;
@@ -76,7 +77,7 @@ figcaption {
   font-weight: 400;
   font-size: 1.5rem;
 }
-/* make first paragraph link number smaller  */
+/* link number smaller  */
 .small-link {
   font-size: 1rem;
 }
@@ -86,7 +87,7 @@ figcaption {
   font-weight: 600;
 }
 
-/* link height - both paragraph */
+/* line height - both paragraph */
 .line-height {
   line-height: 1.5;
 }
@@ -108,11 +109,13 @@ ol {
   padding-top: 0rem;
 }
 
+/* rivers list */
 .river-list ol {
   padding-left: 0.5rem;
   list-style-type: disc;
 }
 
+/* whiteSpace */
 .reference {
   padding-top: 1.5rem;
 }
@@ -122,6 +125,7 @@ ol {
   font-style: italic;
 }
 
+/* no italic text */
 .not-italic {
   font-style: normal;
 }
@@ -146,6 +150,7 @@ li:target {
   background-color: #eaf2fe;
 }
 
+/* merge the order number inside the contents */
 li {
   list-style-position: inside;
 }

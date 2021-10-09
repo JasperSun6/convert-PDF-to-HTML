@@ -1,7 +1,7 @@
 /* 
 MAD9013 Assignment 1
 Author: Jasper Jiaqian Sun
-Date Created: Sept 28, 2021 / Last modified: Oct 5, 2021 
+Date Created: Sept 28, 2021 / Last modified: Oct 8, 2021 
 */
 
 /* webpage font type */
@@ -50,10 +50,6 @@ figcaption {
   text-align: center;
   padding-top: 1rem;
 }
-
-/* figcaption a {
-  text-decoration: none;
-} */
 
 /* title underline */
 .underline {
@@ -113,7 +109,7 @@ ol {
 }
 
 .river-list ol {
-  padding-left: 1.3rem;
+  padding-left: 0.5rem;
   list-style-type: disc;
 }
 
@@ -126,17 +122,21 @@ ol {
   font-style: italic;
 }
 
+.not-italic {
+  font-style: normal;
+}
+
+/* bold arrows */
 .bold-arrow {
   font-weight: bold;
 }
 
 /* reference list font size */
 .ref-list {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 400;
   padding-top: 0.5rem;
   padding-left: 2rem;
-  line-height: 1.5rem;
   position: relative;
   display: block;
 }

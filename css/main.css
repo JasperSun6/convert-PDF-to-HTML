@@ -9,6 +9,7 @@ html {
   font-family: Georgia, "Times New Roman", Times;
   font-family: sans-serif;
   scroll-behavior: smooth;
+  /* You have two font-family properties. Remove the first one. */
 }
 
 /* webpage container */

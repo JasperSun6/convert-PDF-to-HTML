@@ -14,6 +14,7 @@ Date Created: Sept 28, 2021 / Last modified: Oct 8, 2021
     <title>Algonquin Provincial Park</title>
   </head>
   <body>
+    <!-- missing <main> -->
     <article>
       <header>
         <h1 class="park-title font-serif underline">
@@ -25,7 +26,7 @@ Date Created: Sept 28, 2021 / Last modified: Oct 8, 2021
           <img
             src="img/Algonquin_Cache_Lake_Lookout.jpeg"
             alt="Algonquin_Cache_Lake_lookout"
-          />
+          /><!-- `alt` should be left empty when you have a <figcaption> as it describes the image -->
           <figcaption>
             By Original uploader was Ptrbnsn at en.wikipedia - Transferred from
             en.wikipedia, CC BY-SA 3.0,
@@ -41,6 +42,11 @@ Date Created: Sept 28, 2021 / Last modified: Oct 8, 2021
       <!-- first paragraph -->
       <section class="first-paragraph line-height">
         <p>
+          <!--
+            Use a <strong> here instead of a <span>. Although we want to avoid
+            using a <strong>just to make things bold, in this case we are highlighting
+            the name of a park, meaning we want to emphasis it, so should use <strong>
+          -->
           <span class="bold-text">Algonquin Provincial Park</span> is a
           provincial park located between Georgian Bay and the Ottawa River in
           Ontario, Canada, mostly within the Unorganized South Part of Nipissing
@@ -107,8 +113,8 @@ Date Created: Sept 28, 2021 / Last modified: Oct 8, 2021
               target="_blank"
               >"Le parc provincial Algonquin"</a
             >
-            <span class="italic"
-              >. Government of Ontario (in French). 2009-11-02. Archived from
+            <span class="italic"><!-- this should be a <cite> as it is a citation -->
+              . Government of Ontario (in French). 2009-11-02. Archived from
               <a href="https://news.ontario.ca/" target="_blank"
                 >the original</a
               >
@@ -131,12 +137,13 @@ Date Created: Sept 28, 2021 / Last modified: Oct 8, 2021
               <span class="not-italic">|</span> The Friends of Algonquin
               Park"</a
             >
-            <span class="italic"
-              >. www.algonquinpark.on.ca. Retrieved 2018-01-25.</span
+            <span class="italic"><!-- this should be a <cite> as it is a citation -->
+              . www.algonquinpark.on.ca. Retrieved 2018-01-25.</span
             >
           </li>
         </ol>
       </footer>
     </article>
+    <!-- close </main> -->
   </body>
 </html>
